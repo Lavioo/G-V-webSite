@@ -16,13 +16,18 @@
         <div><button class="navbutton" onclick="rechercher()">Search</button></div>
     </nav>
     <section class="content">
-        <div>
-            <script>cycleImage()</script>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
+        <div id="slideshow">
+            <img src="ImagesCycle/auto1 1.jpg" alt="changing image 1" id="cycle">
+            <img src="ImagesCycle/auto2.jpg" alt="changing image 2" id="cycle">
+            <img src="ImagesCycle/auto3.png" alt="changing image 3" id="cycle">
+            <img src="ImagesCycle/auto4.jpg" alt="changing image 4" id="cycle">
         </div>
+        <script>startSlideshow('slideshow', 3000)</script>
+        <br>
+        <button><script>setIndex(0)</script></button>
+        <button><script>setIndex(1)</script></button>
+        <button><script>setIndex(2)</script></button>
+        <button><script>setIndex(3)</script></button>
     </section>
 </body>
 </html>
