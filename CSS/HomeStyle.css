@@ -10,9 +10,12 @@ body{
     text-align: center;
 }
 #logo{
-    background-image: "/Images/Logo G&VBigger.png";
-    width: 20%;
-    height: 10%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 50%;
 }
 div{
     flex:auto;
@@ -28,11 +31,25 @@ div{
     width: 80%;
 }
 
+.navbutton{
+    width: 80%;
+    height: 50%;
+    font-size: x-large;
+    margin-top: 8%;
+    border: 2px, solid, #E71D36;
+    border-radius: 7px;
+    background-color: #E71D36;
+}
 
-/*button{
-    border-radius: 5px;
-    border: 1px, solid, black;
-    max-width: fit-content;
-    display: flex;
-}*/
+.navbutton:hover{
+    width: 80%;
+    height: 50%;
+    font-size: x-large;
+    text-decoration: underline #8B1322 2px;
+    border: 2px, solid, #8B1322;
+    border-radius: 7px;
+    background-color: #E71D36;
+}
+
+
 

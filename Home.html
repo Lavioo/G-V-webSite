@@ -11,16 +11,16 @@
     <nav class="navbar">
         <div><button class="navbutton" onclick="news()">Nouveautées</button></div>
         <div><button class="navbutton" onclick="models()">Modèles</button></div>
-        <div><button class="navbutton" id="logo" onclick="home()"></button></div>
+        <div><button id="logo" onclick="home()"><img src="Images\Logo G&VBigger.png" alt="Logo" width="20%"></button></div>
         <div><button class="navbutton" onclick="about()">À propos</button></div>
         <div><button class="navbutton" onclick="rechercher()">Search</button></div>
     </nav>
     <section class="content">
         <div id="slideshow">
             <img src="ImagesCycle/auto1 1.jpg" alt="changing image 1" id="cycle">
-            <img src="ImagesCycle/auto2.jpg" alt="changing image 2" id="cycle">
-            <img src="ImagesCycle/auto3.png" alt="changing image 3" id="cycle">
-            <img src="ImagesCycle/auto4.jpg" alt="changing image 4" id="cycle">
+            <img src="ImagesCycle/auto2.jpg" alt="changing image 2" id="cycle" style="display: none;">
+            <img src="ImagesCycle/auto3.png" alt="changing image 3" id="cycle" style="display: none;">
+            <img src="ImagesCycle/auto4.jpg" alt="changing image 4" id="cycle" style="display: none;">
         </div>
         <script>startSlideshow('slideshow', 3000)</script>
         <br>
