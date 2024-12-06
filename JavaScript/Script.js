@@ -1,6 +1,3 @@
-window.onload=cycleImage()
-
-
 function news() {
     alert("Nouveaute");
 }
