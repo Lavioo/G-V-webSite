@@ -1,38 +1,55 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>G & V</title>
-    <link rel="stylesheet" href="/CSS/HomeStyle.css">  
-    <script src="JavaScript/Script.js"></script>  
+    <link rel="stylesheet" href="/CSS/HomeStyle.css">
+    <script src="JavaScript/Script.js"></script>
 </head>
+
 <body>
     <nav class="navbar">
         <div><button class="navbutton" onclick="news()">Nouveautées</button></div>
         <div><button class="navbutton" onclick="models()">Modèles</button></div>
-        <div><button id="logo" onclick="home()"><img src="Images\Logo G&VBigger.png" alt="Logo" width="140px" style="margin: 0%; padding: 0; border: 0;"></button></div>
+        <div><button id="logo" onclick="home()"><img src="Images\Logo G&VBigger.png" alt="Logo" width="140px"
+                    style="margin: 0%; padding: 0; border: 0;"></button></div>
         <div><button class="navbutton" onclick="about()">À propos</button></div>
         <div><button class="navbutton" onclick="rechercher()">Search</button></div>
     </nav>
     <section class="content">
-        <div id="slideshow">
-            <img src="ImagesCycle/auto1 1.jpg" alt="changing image 1" id="cycle">
-            <img src="ImagesCycle/auto2.jpg" alt="changing image 2" id="cycle" style="display: none;">
-            <img src="ImagesCycle/auto3.png" alt="changing image 3" id="cycle" style="display: none;">
-            <img src="ImagesCycle/auto4.jpg" alt="changing image 4" id="cycle" style="display: none;">
+        <div id="container">
+            <div id="slideshow">
+                <img src="ImagesCycle/auto1 1.jpg" alt="changing image 1" class="cycle">
+                <img src="ImagesCycle/auto2.jpg" alt="changing image 2" class="cycle" style="display: none;">
+                <img src="ImagesCycle/auto3.png" alt="changing image 3" class="cycle" style="display: none;">
+                <img src="ImagesCycle/auto4.jpg" alt="changing image 4" class="cycle" style="display: none;">
+            </div>
+            <script>slideShow()</script>
+            <br>
+            <nav id="middleBottom">
+                <div class="slideBut">
+                    <button class="slideButton">
+                        <script></script>
+                    </button>
+                    <button class="slideButton">
+                        <script></script>
+                    </button>
+                    <button class="slideButton">
+                        <script></script>
+                    </button>
+                    <button class="slideButton">
+                        <script></script>
+                    </button>
+                </div>
+            </nav>
         </div>
-        <script>startSlideshow('slideshow', 3000)</script>
-        <br>
-        <nav>        
-            <button><script>setIndex(0)</script></button>
-            <button><script>setIndex(1)</script></button>
-            <button><script>setIndex(2)</script></button>
-            <button><script>setIndex(3)</script></button>
-        </nav>
-            <h1><span>N</span>ouveautées</h1>
+        <h1 class="nouveau"><span style="color: #E71D36; text-decoration: underline, #E71D36;">N</span>ouveautées</h1>
+        <img src="Images/Porsche.jpg" alt="" class="nouveau">
 
     </section>
-    
+
 </body>
+
 </html>
