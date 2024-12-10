@@ -1,65 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>À propos</title>
+    <link rel="stylesheet" href="/CSS/aProposStyle.css">
+    <script src="/JavaScript/Script.js"></script>
 </head>
+
 <body>
-    <p><u><strong><span style="color: red;">A</span> propos</strong></p> </u> 
-    <style>
-        /* Conteneur parent */
-        body {
-            display: flex;
-            justify-content: center; /* Centre horizontalement */
-            align-items: center; /* Centre verticalement */
-            height: 100vh; /* Prend toute la hauteur de la fenêtre */
-            margin: 0; /* Supprime les marges par défaut du body */
-            font-size: 24px; /* Taille de la police */
-        }
-    </style>
-</head>
-<body>
-    <p><u><strong><span style="color: red;">A</span> propos</strong></u></p>
-    <p
+    <nav class="navbar">
+        <div><button class="navbutton" onclick="news()">Nouveautées</button></div>
+        <div><button class="navbutton" onclick="models()">Modèles</button></div>
+        <div><button id="logo" onclick="home()"><img src="/Images/Logo G&VBigger.png" alt="Logo" width="140px"
+                    style="margin: 0%; padding: 0; border: 0;"></button></div>
+        <div><button class="navbutton" onclick="about()">À propos</button></div>
+        <div><button class="navbutton" onclick="rechercher()">Search</button></div>
+    </nav>
+    <section class="content">
+        <div class="container">
+            <!-- Titre "A propos" avec style -->
+            <h1><u><strong><span style="color: red;">A</span> propos</strong></u></h1>
+            <p>Depuis plus de 25 ans, Garvag s'engage a vous fournir les voitures
+                d'occasion les plus qualitatives possible.
+
+                Grâce à nos fabricants partenaires, vous avez accès aux autos usagées remisent à
+                neuf par les fabricants eux-mêmes
+
+                Chaque semaine Garvag intègrent de nouveaux modèles à son catalogue en expansion perpétuelle.</p>
+
+
+            <img src="/Images/ImageApropos.jpg" alt="Image centrée" id="imgApropos">
+
+            <h2><strong><u><span style="color: red;">F</span>ondateurs</u></strong></h2>
+            <p>Ce projet fût fondé par Giorgio Labaki et Vincent Robert, puis rejoint peu après par Adam Saidi.</p>
+
+            <!-- Présentation du projet -->
+            <h2><u><strong><span style="color: red;">P</span>résentation du projet</u></strong></h2>
+            <p>
+                Ce projet a pour but de créer un site web dans un domaine choisi. Notre domaine est donc la vente en
+                ligne
+                et plus précisément la vente de véhicules usagés en ligne.
+            </p>
+
+            <p>Notre site web se divise en plusieurs parties :</p>
+
+            <ul>
+                <li> L'accueil </li>
+                <li> La section nouveauté (Porsche) </li>
+                <li> Les pages associées à chaque marque </li>
+                <li> Les pages pour chaque modèle de voitures individuelles </li>
+                <li> La page pour trouver un concessionnaire </li>
+                <li> La page à propos </li>
+                <li> La page contact </li>
+            </ul>
+        </div>
+    </section>
 </body>
 
-
-
-    <style>
-    body {
-        display: flex;
-        justify-content: center; /* Centre horizontalement */
-        align-items: center; /* Centre verticalement */
-        height: 100vh; /* Prend toute la hauteur de la fenêtre */
-        margin: 0; /* Supprime les marges par défaut du body */
-    }
-</style>
-<body>
-<img src="/Images/ImageApropos.jpg" alt="Image centrée" width="400">
-</body>
-
-<strong><u><span style="color: red;">F</span>ondateurs</u></strong>
-
-    Ce projet fût fondé par Giorgio Labaki et Vincent Robert puis rejoint peu après par Adam Saidi.</p>
-
-
-<p><u><strong><span style="color: red;">P</span>résentation du projet</u></strong>
-
-    Ce projet à pour but de créer un site web dans un domaine choisie. Notre domaine est donc la vente en ligne et plus précisément la vente de véhicule usagés en ligne.
-    
-    Notre site web se divise donc en plusieurs parties:</p>
-
-    <p>
-        <ul>
-      <li> l'acceuil </li>
-      <li> La section nouveauté (Porsche) </li> 
-      <li>  Les pages associées à chaque marques </li>  
-      <li>   Les pages pour chaque modèle de voitures individuelles  </li> 
-      <li> La page pour trouver un concessionnaire </li>  
-      <li> La page à propos </li>  
-      <li> La page contact </li>
-      </ul>
-    </p>
-</body>
 </html>

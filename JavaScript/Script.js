@@ -10,12 +10,12 @@ function home(){
     if(window.location.pathname == "/Home.html"){
         window.location.reload();
     }else{
-        window.location.href("/Home.html");
+        window.location = '/Home.html';
     }
 }
 
 function about(){
-    alert("about");
+    window.location ='/HTML/À_propos.html';
 }
   
 function rechercher(){

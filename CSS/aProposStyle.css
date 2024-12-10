@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* Aligne le contenu vers le haut */
+    align-items: center;
+    /* Centre horizontalement */
+    height: 100vh;
+    /* Prend toute la hauteur de la fenêtre */
+    margin: 0;
+    /* Supprime les marges par défaut du body */
+    font-size: 18px;
+    /* Taille de la police pour le texte */
+    font-family: Arial, sans-serif;
+    /* Police plus agréable */
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+#imgApropos {
+    width: 400px;
+    height: auto;
+}
+
+.section ul {
+    display: flex;
+    /* Utiliser flexbox pour aligner les éléments */
+    flex-direction: column;
+    /* Aligner verticalement */
+    list-style-position: inside;
+    /* Déplace les puces à l'intérieur de la zone du texte */
+    padding-left: 0;
+    /* Supprime l'indentation par défaut */
+    margin: 0;
+    /* Supprime la marge par défaut */
+    list-style-position: inside;
+    /* Met les puces à l'intérieur */
+}
+
+.section li {
+    text-align: left;
+    padding-left: 10px;
+
+}
+
+#logo {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+
+}
+
+.navbar {
+    background-color: #E71D36;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.navbutton {
+    width: 80%;
+    height: 50%;
+    font-size: x-large;
+    margin-top: 8%;
+    border: 4px, solid, #E71D36;
+    border-radius: 7px;
+    background-color: #E71D36;
+    color: #2D2D2A;
+}
+
+.navbutton:hover {
+    transition: ease-in-out, 200ms;
+    width: 80%;
+    height: 50%;
+    font-size: x-large;
+    text-decoration: underline #2D2D2A 2px;
+    border: 4px, solid, #8B1322;
+    border-radius: 7px;
+    background-color: #E71D36;
+    color: #2D2D2A;
+}
+div{
+    flex:auto;
+    padding: 10px;
+}
