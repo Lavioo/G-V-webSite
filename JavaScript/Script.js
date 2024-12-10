@@ -1,8 +1,8 @@
 function news() {
-    if(window.location.pathname == "HTML/Nouveautées.html"){
+    if(window.location.pathname == "/HTML/Nouveautées.html"){
         window.location.reload();
     }else{
-        window.location = 'HTML/Nouveautées.html';
+        window.location = '/HTML/Nouveautées.html';
     }
 }
 
