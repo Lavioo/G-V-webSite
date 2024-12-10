@@ -1,5 +1,9 @@
 function news() {
-    alert("Nouveaute");
+    if(window.location.pathname == "HTML/Nouveautées.html"){
+        window.location.reload();
+    }else{
+        window.location = 'HTML/Nouveautées.html';
+    }
 }
 
 function models(){
@@ -15,7 +19,11 @@ function home(){
 }
 
 function about(){
-    window.location ='/HTML/À_propos.html';
+    if(window.location.pathname == "/HTML/À_propos.html"){
+        window.location.reload();
+    }else{
+        window.location = '/HTML/À_propos.html';
+    }
 }
   
 function rechercher(){

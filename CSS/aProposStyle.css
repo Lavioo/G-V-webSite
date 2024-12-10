@@ -99,3 +99,6 @@ div{
     flex:auto;
     padding: 10px;
 }
+button{
+    cursor: pointer;
+}

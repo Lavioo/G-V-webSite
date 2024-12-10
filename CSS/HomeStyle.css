@@ -106,3 +106,6 @@ div{
     left: 43%;
     top: 115%
 }
+button{
+    cursor: pointer;
+}
