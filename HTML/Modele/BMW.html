@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G & V BMW</title>
+    <link rel="shortcut icon" href="/Images/Logo G&V.png" type="png">
+    <link rel="stylesheet" href="/CSS/bmw.css">
+    <Script src="/JavaScript/NavBar.js"></Script>
+</head>
+
+<body>
+
+    <!-- Barre de Navigation -->
+    <section>
+        <nav class="navbar">
+            <div><button onclick="news()">Nouveautés</button></div>
+            <div class="hovermenu"><button>Modèles</button>
+                <br>
+                <div class="hide mercedes"><button onclick="mercedes()">Mercedes-Benz <img
+                            src="/Images/LogoVoitureMenu/mercedes.png" alt=""></button></div>
+                <div class="hide audi"><button onclick="audi()">Audi <img src="/Images/LogoVoitureMenu/Audi Logo.png"
+                            alt=""></button></div>
+                <div class="hide bmw"><button onclick="bmw()">BMW <img src="/Images/LogoVoitureMenu/bmw.png"
+                            alt=""></button></div>
+            </div>
+            <div><button id="logo" onclick="home()"><img src="/Images/Logo G&VBigger.png" alt="Logo" width="140px"
+                        style="margin: 0%; padding: 0; border: 0;"></button></div>
+            <div><button onclick="about()">À propos</button></div>
+            <div><button onclick="rechercher()">Recherche</button></div>
+        </nav>
+    </section>
+    <br>
+    <div class="title">
+        <h1><span>G</span>amme BMW</h1>
+        <img src="/Images/LogoVoitureMenu/BMWBig.png" alt="">
+    </div>
+
+    <section class="models">
+
+        <div><img src="/Images/Modeles/BMW/1.png" alt="">
+            <h3 class="nomVoiture">2019 BMW M6 COMPETITION</h3>
+            <p class="prix">Prix: 75, 999$ CAD</p>
+            <button>Voir les détails</button>
+        </div>
+        <div><img src="/Images/Modeles/BMW/2.png" alt="">
+            <h3 class="nomVoiture">2016 BMW M4 COMPETITION</h3>
+            <p class="prix">Prix: 62, 999$ CAD</p>
+            <button>Voir les détails</button>
+        </div>
+
+        <div><img src="/Images/Modeles/BMW/3.png" alt="">
+            <h3 class="nomVoiture">2019 BMW 530i</h3>
+            <p class="prix">Prix: 58, 999$ CAD</p>
+            <button>Voir les détails</button>
+        </div>
+        <div><img src="/Images/Modeles/BMW/4.png" alt="">
+            <h3 class="nomVoiture">2013 BMW 650i</h3>
+            <p class="prix">Prix: 38, 999$ CAD</p>
+            <button>Voir les détails</button>
+        </div>
+
+        <div><img src="/Images/Modeles/BMW/5.png" alt="">
+            <h3 class="nomVoiture">2013 BMW 760i</h3>
+            <p class="prix">Prix: 218, 999$ CAD</p>
+            <button>Voir les détails</button>
+        </div>
+        <div><img src="/Images/Modeles/BMW/6.png" alt="">
+            <h3 class="nomVoiture">2013 BMW 335i</h3>
+            <p class="prix">Prix: 9, 999$ CAD</p>
+            <button>Voir les détails</button>
+        </div>
+    </section>
+
+    <!-- Pied de page -->
+    <section>
+        <footer>
+            <div class="footer-container">
+                <div class="contact-info">
+                    <p><img src="/Images/adresse.png" alt="Adresse" width="20"> 10555 Ave de Bois-de-Boulogne, Montreal, Quebec H4N 1L4</p>
+                    <p><img src="/Images/email.png" alt="Email" width="20"> Garvag@autosales.com</p>
+                    <p><img src="/Images/telephone.png" alt="Telephone" width="20"> 438-535-1212</p>
+                </div>
+                <div class="partners">
+                    <h3>Nos Partenaires</h3>
+                    <img src="/Images/bmw.png" alt="BMW">
+                    <img src="/Images/audi.png" alt="Audi">
+                    <img src="/Images/porsch.png" alt="Porsche">
+                    <img src="/Images/mercedes.png" alt="Mercedes">
+                </div>
+            </div>
+            <div class="bottom-links">
+                © Garvag, Inc. · Confidentialité · Conditions générales · Plan du site · <a href="/HTML/Contact.html">Nous contacter</a>
+                <div class="icons">
+                    <img src="/Images/globe.png" alt="Langue">
+                    <img src="/Images/dollars.png" alt="Dollars">
+                    <img src="/Images/facebook.png" alt="Facebook">
+                    <img src="/Images/twitter.png" alt="Twitter">
+                    <img src="/Images/instagram.png" alt="Instagram">
+                </div>
+            </div>
+        </footer>
+    </section>
+</body>
+
+</html>
